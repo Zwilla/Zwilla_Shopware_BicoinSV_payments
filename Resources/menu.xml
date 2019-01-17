@@ -1,0 +1,13 @@
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/menu.xsd">
+    <entries>
+        <entry>
+            <name>BitcoinSV</name>
+            <label lang="en">BitcoinSV</label>
+            <label lang="de">BitcoinSV</label>
+            <controller>PaymentBitcoinSV</controller>
+            <action>index</action>
+            <class>sprite-eye</class>
+            <parent identifiedBy="controller">Payments</parent>
+        </entry>
+    </entries>
+</menu>
